@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    background-color: #F1F1F1;
+    color: #0f141e;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;;
+}
+.cat {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.info-text {
+    margin-left: 40px;
+
+}
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /*text-transform: lowercase; */
+    letter-spacing: 1px;
+    /*(word-spacing: 42px;*/
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+/*.social {
+    background-color: gray;
+    padding: 15px 40px;
+    border: 5px solid black;
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    margin: 15px;
+
+}
+.boxmodel > div {
+    float: left;
+    background-color: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+}
+ */
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: grey;
+}
+.social {
+    padding: 15px 20px;
+}
+.hobby {
+    padding: 15px 20px;
+}
+.work{
+    padding: 15px 20px;
+}
+.writeus  {
+    padding: 15px 20px;
+
+}
+.writeus h3 {
+    text-align: center;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(1) {
+    color: gray;
+}
+.writeus label {
+    display: block;
+    font-size: 20px;
+
+}
+.writeus input,
+.writeus textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .writeus {
+    width: 50%;
+}
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+/*.position {
+    position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 20px;
+    height: 300px;
+}
+.box {
+    bottom: 100px;
+    right: 100px;
+    top: 20px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: lightcoral;
+}
+ */
